@@ -1,6 +1,6 @@
 package org.example;
 
-public class question {
+public class Question {
     private int id;
     private String question;
     private String option1;
