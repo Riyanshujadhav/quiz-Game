@@ -40,6 +40,6 @@ public class QuestionService {
                 score++;
             }
         }
-        System.out.println("Your score is : "+score);
+        System.out.println("Your score is: "+score);
     }
 }
