@@ -6,11 +6,11 @@ public class QuestionService {
     Question[] questions =new Question[5];
     String selection[]=new String[5];
     public QuestionService(){
-        questions[0]=new Question(1,"What is size of int","2","4","8","6","4");
-        questions[1]=new Question(2,"What is size of float","2","4","8","6","4");
-        questions[2]=new Question(3,"What is size of double","2","4","8","6","8");
-        questions[3]=new Question(4,"What is size of long ","2","4","8","6","8");
-        questions[4]=new Question(5,"What is size of byte","2","4","8","6","2");
+        questions[0]=new Question(1,"What is size of int :","2","4","8","6","4");
+        questions[1]=new Question(2,"What is size of float :","2","4","8","6","4");
+        questions[2]=new Question(3,"What is size of double :","2","4","8","6","8");
+        questions[3]=new Question(4,"What is size of long :","2","4","8","6","8");
+        questions[4]=new Question(5,"What is size of byte :","2","4","8","6","2");
     }
 
     public void palyQuiz(){
